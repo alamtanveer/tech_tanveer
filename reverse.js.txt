@@ -1,0 +1,13 @@
+function reverse(get){
+var blnkArr=[];
+var str="";
+var revOrder=get.split('');
+for (var i=revOrder.length; i>=0; i--){
+	blnkArr.push(revOrder[i])    
+}
+blnkArr.splice(0,1);
+for (var j=0; j<blnkArr.length; j++){  
+  str +=blnkArr[j];
+}
+console.log(str);
+}
