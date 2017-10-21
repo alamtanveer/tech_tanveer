@@ -1,0 +1,83 @@
+body{
+	font-family: verdana;
+}
+#calendarWrapper{
+	background: #d3e4f0;
+	width: 80%;
+	height: 600px;
+	margin: auto;
+	box-sizing: border-box;
+	text-align: center;
+	position: relative;
+}
+#headerText{
+	text-align: center;
+	padding: 10px;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: arial;
+}
+.weekday{
+	width: 13.14%;
+    height: 200px;
+    background: #ffa54b;
+    display: inline-block;
+    margin: 5px;
+    box-sizing: border-box;
+    position: relative;
+}
+#dayWrapper{
+	width: 100%;
+	position: absolute;
+}
+.dayName{
+	background: #943288;
+    padding: 5px;
+    box-sizing: border-box;
+    color: white;
+    font-size: 18px;
+    text-align: right;
+}
+#bindJSONdata{
+	position: absolute;
+	width: 50%;
+	background: white;
+	padding: 20px;
+	margin: 20px;
+	max-width: 440px;
+	overflow: auto;
+	max-height: 170px;
+	top: 274px;
+}
+.YearWrapper{
+	position: absolute;
+	top: 275px;
+	right: 368px;
+}
+.year{
+	text-align: left;
+	margin-bottom: 8px;
+}
+.txtBox{
+	padding: 5px;
+	display: block;
+}
+.btnUpdate{	
+	float: left;	
+	margin-top: 10px;
+}
+.nameList{
+	position: relative;
+	display: inline-block;
+	width: 100%;
+	background: gray;
+	height: 100%;
+	top: 0px;
+	left: 0px;
+	float: left;
+}
+.nameWrapper{
+	width: 100%;
+    height: 84%;
+    position: absolute;
+}
